@@ -70,7 +70,7 @@ namespace Procesos
                         }
                     case "nombre_de_la_figura":
                         {
-                            ColaProcesos.Add(Funciones.CreateProcess("D:/Users/rojas/Desktop/ProyectoS.O/Procesos/programas/main.exe", "main.exe", "nombre_de_la_figura", pros));
+                            ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\main.exe"), "main.exe", "nombre_de_la_figura", pros));
                             CB_proceso.Items.Remove("nombre_de_la_figura");
                             CB_iniciado.Items.Add("nombre_de_la_figura");
                             direccion = "";
