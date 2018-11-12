@@ -66,7 +66,7 @@ namespace Procesos
             this.CB_iniciado.FormattingEnabled = true;
             this.CB_iniciado.Location = new System.Drawing.Point(276, 243);
             this.CB_iniciado.Name = "CB_iniciado";
-            this.CB_iniciado.Size = new System.Drawing.Size(185, 33);
+            this.CB_iniciado.Size = new System.Drawing.Size(305, 33);
             this.CB_iniciado.TabIndex = 1;
             // 
             // CB_pausado
@@ -74,7 +74,7 @@ namespace Procesos
             this.CB_pausado.FormattingEnabled = true;
             this.CB_pausado.Location = new System.Drawing.Point(276, 299);
             this.CB_pausado.Name = "CB_pausado";
-            this.CB_pausado.Size = new System.Drawing.Size(185, 33);
+            this.CB_pausado.Size = new System.Drawing.Size(305, 33);
             this.CB_pausado.TabIndex = 2;
             // 
             // CB_finalizado
@@ -82,7 +82,7 @@ namespace Procesos
             this.CB_finalizado.FormattingEnabled = true;
             this.CB_finalizado.Location = new System.Drawing.Point(276, 367);
             this.CB_finalizado.Name = "CB_finalizado";
-            this.CB_finalizado.Size = new System.Drawing.Size(185, 33);
+            this.CB_finalizado.Size = new System.Drawing.Size(305, 33);
             this.CB_finalizado.TabIndex = 3;
             // 
             // label2
@@ -114,7 +114,7 @@ namespace Procesos
             // 
             // B_continuar
             // 
-            this.B_continuar.Location = new System.Drawing.Point(483, 302);
+            this.B_continuar.Location = new System.Drawing.Point(612, 299);
             this.B_continuar.Name = "B_continuar";
             this.B_continuar.Size = new System.Drawing.Size(120, 32);
             this.B_continuar.TabIndex = 7;
@@ -124,7 +124,7 @@ namespace Procesos
             // 
             // B_pause
             // 
-            this.B_pause.Location = new System.Drawing.Point(483, 243);
+            this.B_pause.Location = new System.Drawing.Point(612, 240);
             this.B_pause.Name = "B_pause";
             this.B_pause.Size = new System.Drawing.Size(95, 33);
             this.B_pause.TabIndex = 8;
@@ -134,7 +134,7 @@ namespace Procesos
             // 
             // B_finalizar
             // 
-            this.B_finalizar.Location = new System.Drawing.Point(612, 244);
+            this.B_finalizar.Location = new System.Drawing.Point(741, 241);
             this.B_finalizar.Name = "B_finalizar";
             this.B_finalizar.Size = new System.Drawing.Size(98, 32);
             this.B_finalizar.TabIndex = 9;
@@ -144,7 +144,7 @@ namespace Procesos
             // 
             // B_finalizado
             // 
-            this.B_finalizado.Location = new System.Drawing.Point(622, 302);
+            this.B_finalizado.Location = new System.Drawing.Point(751, 299);
             this.B_finalizado.Name = "B_finalizado";
             this.B_finalizado.Size = new System.Drawing.Size(98, 32);
             this.B_finalizado.TabIndex = 10;
@@ -156,15 +156,16 @@ namespace Procesos
             // 
             this.CB_proceso.FormattingEnabled = true;
             this.CB_proceso.Items.AddRange(new object[] {
-            "Matriz",
-            "suma",
-            "Ejemplo 2",
-            "Ejemplo 3",
-            "Ejemplo 4",
-            "Nombre de los proyectos"});
-            this.CB_proceso.Location = new System.Drawing.Point(376, 126);
+            "Cuadro_Magico",
+            "coordenadas_Del_lazo",
+            "nombre_de_la_figura",
+            "bingo",
+            "Matriz_Final",
+            "sudoku4por4_ojo",
+            "numero_de_pruebas_ojo"});
+            this.CB_proceso.Location = new System.Drawing.Point(264, 126);
             this.CB_proceso.Name = "CB_proceso";
-            this.CB_proceso.Size = new System.Drawing.Size(121, 33);
+            this.CB_proceso.Size = new System.Drawing.Size(317, 33);
             this.CB_proceso.TabIndex = 11;
             // 
             // label5
@@ -178,7 +179,7 @@ namespace Procesos
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(540, 129);
+            this.button5.Location = new System.Drawing.Point(669, 126);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(88, 31);
             this.button5.TabIndex = 13;
@@ -191,7 +192,7 @@ namespace Procesos
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(778, 463);
+            this.ClientSize = new System.Drawing.Size(895, 463);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.CB_proceso);

@@ -32,3 +32,12 @@ C:\Users\jazmi\Documents\Procesos\Procesos\obj\Debug\Procesos.csproj.GenerateRes
 C:\Users\jazmi\Documents\Procesos\Procesos\obj\Debug\Procesos.csproj.CoreCompileInputs.cache
 C:\Users\jazmi\Documents\Procesos\Procesos\obj\Debug\Procesos.exe
 C:\Users\jazmi\Documents\Procesos\Procesos\obj\Debug\Procesos.pdb
+D:\Users\rojas\Desktop\Procesos\Procesos\bin\Debug\Procesos.exe.config
+D:\Users\rojas\Desktop\Procesos\Procesos\bin\Debug\Procesos.exe
+D:\Users\rojas\Desktop\Procesos\Procesos\bin\Debug\Procesos.pdb
+D:\Users\rojas\Desktop\Procesos\Procesos\obj\Debug\Procesos.csprojAssemblyReference.cache
+D:\Users\rojas\Desktop\Procesos\Procesos\obj\Debug\Procesos.Principal.resources
+D:\Users\rojas\Desktop\Procesos\Procesos\obj\Debug\Procesos.csproj.GenerateResource.cache
+D:\Users\rojas\Desktop\Procesos\Procesos\obj\Debug\Procesos.csproj.CoreCompileInputs.cache
+D:\Users\rojas\Desktop\Procesos\Procesos\obj\Debug\Procesos.exe
+D:\Users\rojas\Desktop\Procesos\Procesos\obj\Debug\Procesos.pdb
