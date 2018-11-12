@@ -54,6 +54,8 @@ namespace Procesos
                         ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\Cuadro_Magico.jar"), "Cuadro_Magico.jar", "Cuadro_Magico", pros));
                         CB_proceso.Items.Remove("Cuadro_Magico");
                         CB_iniciado.Items.Add("Cuadro_Magico");
+                        direccion = "";
+                        direcc = "";
                         break;
                     }
                 case "coordenadas_Del_lazo":
@@ -61,6 +63,8 @@ namespace Procesos
                         ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\knotornot.jar"), "knotornot.jar", "coordenadas_Del_lazo", pros));
                         CB_proceso.Items.Remove("coordenadas_Del_lazo");
                         CB_iniciado.Items.Add("coordenadas_Del_lazo");
+                        direccion = "";
+                        direcc = "";
                         break;
                     }
                 case "nombre_de_la_figura":
@@ -68,6 +72,8 @@ namespace Procesos
                         ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\main.exe"), "main.exe", "nombre de la figura", pros));
                         CB_proceso.Items.Remove("nombre_de_la_figura");
                         CB_iniciado.Items.Add("nombre_de_la_figura");
+                        direccion = "";
+                        direcc = "";
                         break;
                     }
                 case "bingo":
@@ -75,6 +81,8 @@ namespace Procesos
                         ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion,"programas\\ProyectoBingo.jar"), "ProyectoBingo.jar", "bingo", pros));
                         CB_proceso.Items.Remove("bingo");
                         CB_iniciado.Items.Add("bingo");
+                        direccion = "";
+                        direcc = "";
                         break;
                     }
                 case "Matriz_Final":
@@ -82,6 +90,8 @@ namespace Procesos
                         ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\ProyectoMatriz_Final.jar"), "ProyectoMatriz_Final.jar", "Matriz_Final", pros));
                         CB_proceso.Items.Remove("Matriz_Final");
                         CB_iniciado.Items.Add("Matriz_Final");
+                        direccion = "";
+                        direcc = "";
                         break;
                     }
                 case "sudoku4por4_ojo":
@@ -89,6 +99,8 @@ namespace Procesos
                         ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\sudoku4por4.jar"), "sudoku4por4.jar", "sudoku4por4_ojo", pros));
                         CB_proceso.Items.Remove("sudoku4por4_ojo");
                         CB_iniciado.Items.Add("sudoku4por4_ojo");
+                        direccion = "";
+                        direcc = "";
                         break;
                     }
                 case "numero_de_pruebas_ojo":
@@ -96,6 +108,8 @@ namespace Procesos
                         ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\JavaApplication1.jar"), "JavaApplication1.jar", "numero_de_pruebas_ojo", pros));
                         CB_proceso.Items.Remove("numero_de_pruebas_ojo");
                         CB_iniciado.Items.Add("numero_de_pruebas_ojo");
+                        direccion = "";
+                        direcc = "";
                         break;
                     }
             }
