@@ -50,3 +50,12 @@ C:\Users\AliCeleita\Documents\SistemasOperativos\Proyectsas\Procesos\obj\Debug\P
 C:\Users\AliCeleita\Documents\SistemasOperativos\Proyectsas\Procesos\obj\Debug\Procesos.csproj.CoreCompileInputs.cache
 C:\Users\AliCeleita\Documents\SistemasOperativos\Proyectsas\Procesos\obj\Debug\Procesos.exe
 C:\Users\AliCeleita\Documents\SistemasOperativos\Proyectsas\Procesos\obj\Debug\Procesos.pdb
+D:\Users\rojas\Desktop\ProyectoS.O\Procesos\bin\Debug\Procesos.exe.config
+D:\Users\rojas\Desktop\ProyectoS.O\Procesos\bin\Debug\Procesos.exe
+D:\Users\rojas\Desktop\ProyectoS.O\Procesos\bin\Debug\Procesos.pdb
+D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.csprojAssemblyReference.cache
+D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.Principal.resources
+D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.csproj.GenerateResource.cache
+D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.csproj.CoreCompileInputs.cache
+D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.exe
+D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.pdb
