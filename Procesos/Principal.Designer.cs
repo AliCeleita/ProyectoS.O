@@ -114,42 +114,46 @@ namespace Procesos
             // 
             // B_continuar
             // 
+            this.B_continuar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.B_continuar.Location = new System.Drawing.Point(612, 299);
             this.B_continuar.Name = "B_continuar";
             this.B_continuar.Size = new System.Drawing.Size(120, 32);
             this.B_continuar.TabIndex = 7;
             this.B_continuar.Text = "Continuar";
-            this.B_continuar.UseVisualStyleBackColor = true;
+            this.B_continuar.UseVisualStyleBackColor = false;
             this.B_continuar.Click += new System.EventHandler(this.B_continuar_Click);
             // 
             // B_pause
             // 
+            this.B_pause.BackColor = System.Drawing.Color.Fuchsia;
             this.B_pause.Location = new System.Drawing.Point(612, 240);
             this.B_pause.Name = "B_pause";
             this.B_pause.Size = new System.Drawing.Size(95, 33);
             this.B_pause.TabIndex = 8;
             this.B_pause.Text = "Pausar";
-            this.B_pause.UseVisualStyleBackColor = true;
+            this.B_pause.UseVisualStyleBackColor = false;
             this.B_pause.Click += new System.EventHandler(this.B_pause_Click);
             // 
             // B_finalizar
             // 
+            this.B_finalizar.BackColor = System.Drawing.Color.Red;
             this.B_finalizar.Location = new System.Drawing.Point(741, 241);
             this.B_finalizar.Name = "B_finalizar";
             this.B_finalizar.Size = new System.Drawing.Size(98, 32);
             this.B_finalizar.TabIndex = 9;
             this.B_finalizar.Text = "Finalizar";
-            this.B_finalizar.UseVisualStyleBackColor = true;
+            this.B_finalizar.UseVisualStyleBackColor = false;
             this.B_finalizar.Click += new System.EventHandler(this.B_finalizar_Click);
             // 
             // B_finalizado
             // 
+            this.B_finalizado.BackColor = System.Drawing.Color.Red;
             this.B_finalizado.Location = new System.Drawing.Point(751, 299);
             this.B_finalizado.Name = "B_finalizado";
             this.B_finalizado.Size = new System.Drawing.Size(98, 32);
             this.B_finalizado.TabIndex = 10;
             this.B_finalizado.Text = "Finalizar";
-            this.B_finalizado.UseVisualStyleBackColor = true;
+            this.B_finalizado.UseVisualStyleBackColor = false;
             this.B_finalizado.Click += new System.EventHandler(this.B_finalizado_Click);
             // 
             // CB_proceso
@@ -179,19 +183,20 @@ namespace Procesos
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.Lime;
             this.button5.Location = new System.Drawing.Point(669, 126);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(88, 31);
             this.button5.TabIndex = 13;
             this.button5.Text = "Iniciar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(895, 463);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label5);

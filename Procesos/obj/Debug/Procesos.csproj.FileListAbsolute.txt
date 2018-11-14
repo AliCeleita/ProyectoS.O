@@ -59,3 +59,12 @@ D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.csproj.GenerateRe
 D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.csproj.CoreCompileInputs.cache
 D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.exe
 D:\Users\rojas\Desktop\ProyectoS.O\Procesos\obj\Debug\Procesos.pdb
+C:\Users\Pavilion 15\Documents\GitHub\ProyectoS.O\Procesos\bin\Debug\Procesos.exe.config
+C:\Users\Pavilion 15\Documents\GitHub\ProyectoS.O\Procesos\bin\Debug\Procesos.exe
+C:\Users\Pavilion 15\Documents\GitHub\ProyectoS.O\Procesos\bin\Debug\Procesos.pdb
+C:\Users\Pavilion 15\Documents\GitHub\ProyectoS.O\Procesos\obj\Debug\Procesos.csprojAssemblyReference.cache
+C:\Users\Pavilion 15\Documents\GitHub\ProyectoS.O\Procesos\obj\Debug\Procesos.Principal.resources
+C:\Users\Pavilion 15\Documents\GitHub\ProyectoS.O\Procesos\obj\Debug\Procesos.csproj.GenerateResource.cache
+C:\Users\Pavilion 15\Documents\GitHub\ProyectoS.O\Procesos\obj\Debug\Procesos.csproj.CoreCompileInputs.cache
+C:\Users\Pavilion 15\Documents\GitHub\ProyectoS.O\Procesos\obj\Debug\Procesos.exe
+C:\Users\Pavilion 15\Documents\GitHub\ProyectoS.O\Procesos\obj\Debug\Procesos.pdb
