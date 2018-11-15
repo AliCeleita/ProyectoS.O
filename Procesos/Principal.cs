@@ -90,6 +90,16 @@ namespace Procesos
                             direcc = "";
                             break;
                         }
+                    case "domino":
+                        {
+                            ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\Domino.jar"), "Domino.jar", "domino", pros));
+                            CB_proceso.Items.Remove("domino");
+                            CB_iniciado.Items.Add("domino");
+                            ControlBox = false;
+                            direccion = "";
+                            direcc = "";
+                            break;
+                        }
                     case "Matriz_Final":
                         {
                             ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\ProyectoMatriz_Final.jar"), "ProyectoMatriz_Final.jar", "Matriz_Final", pros));
@@ -100,21 +110,21 @@ namespace Procesos
                             direcc = "";
                             break;
                         }
-                    case "sudoku4por4_ojo":
+                    case "sudoku4por4":
                         {
-                            ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\sudoku4por4.jar"), "sudoku4por4.jar", "sudoku4por4_ojo", pros));
-                            CB_proceso.Items.Remove("sudoku4por4_ojo");
-                            CB_iniciado.Items.Add("sudoku4por4_ojo");
+                            ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\sudoku4por4.jar"), "sudoku4por4.jar", "sudoku4por4", pros));
+                            CB_proceso.Items.Remove("sudoku4por4");
+                            CB_iniciado.Items.Add("sudoku4por4");
                             ControlBox = false;
                             direccion = "";
                             direcc = "";
                             break;
                         }
-                    case "numero_de_pruebas_ojo":
+                    case "numero_de_pruebas":
                         {
-                            ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\JavaApplication1.jar"), "JavaApplication1.jar", "numero_de_pruebas_ojo", pros));
-                            CB_proceso.Items.Remove("numero_de_pruebas_ojo");
-                            CB_iniciado.Items.Add("numero_de_pruebas_ojo");
+                            ColaProcesos.Add(Funciones.CreateProcess(Path.Combine(direccion, "programas\\operativos.jar"), "operativos.jar", "numero_de_pruebas", pros));
+                            CB_proceso.Items.Remove("numero_de_pruebas");
+                            CB_iniciado.Items.Add("numero_de_pruebas");
                             ControlBox = false;
                             direccion = "";
                             direcc = "";
@@ -246,7 +256,7 @@ namespace Procesos
                     Process temp = Process.GetProcessById(int.Parse(info.Indice));
                     temp.Kill();
                     ColaProcesos.Remove(temp);
-
+                    ControlBox = true;
                     CB_finalizado.Items.Add(info.Nombre);
                     CB_pausado.Items.Remove(info.Nombre);
 
@@ -262,6 +272,8 @@ namespace Procesos
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
             }
         }
+
+       
 
         private void Principal_Load(object sender, EventArgs e)
         {

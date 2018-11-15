@@ -165,12 +165,14 @@ namespace Procesos
             "nombre_de_la_figura",
             "bingo",
             "Matriz_Final",
-            "sudoku4por4_ojo",
-            "numero_de_pruebas_ojo"});
+            "domino",
+            "sudoku4por4",
+            "numero_de_pruebas"});
             this.CB_proceso.Location = new System.Drawing.Point(264, 126);
             this.CB_proceso.Name = "CB_proceso";
             this.CB_proceso.Size = new System.Drawing.Size(317, 33);
             this.CB_proceso.TabIndex = 11;
+            //this.CB_proceso.SelectedIndexChanged += new System.EventHandler(this.CB_proceso_SelectedIndexChanged);
             // 
             // label5
             // 
